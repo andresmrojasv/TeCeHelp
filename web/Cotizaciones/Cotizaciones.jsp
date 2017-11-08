@@ -10,7 +10,7 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Cotizaciones</title>
-        <link rel="stylesheet" href="../css/Style.css" type="text/css">
+        <link rel="stylesheet" href="../css/Style_Cotizaciones.css" type="text/css">
     </head>
     <body>
 

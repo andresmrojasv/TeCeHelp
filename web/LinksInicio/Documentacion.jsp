@@ -20,5 +20,10 @@
         <h1>Formato de Registro Único Empresarl y Social RUES</h1>
         <object width="400" height="600" data="../PDFs/FormularioTeCeHelp.pdf"></object>
         <p>Para descargarlo de clic <a href="../PDFs/FormularioTeCeHelp.pdf">aquí</a></p>
+        <h1>Constituciòn Legal de la Empresa</h1>
+        <object width="400" height="600" data="../PDFs/ConstitucionLegaldelaEmpresa.pdf"></object>
+        <p>Para descargarlo de clic <a href="../PDFs/ConstitucionLegaldelaEmpresa.pdf">aquí</a></p>
+        
+        
     </body>
 </html>

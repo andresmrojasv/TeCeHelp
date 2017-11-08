@@ -23,11 +23,11 @@
                     <li><font>Contacto</font></li>
                 </ul>
             </nav>
-            <form action="login.php" method="post" >
+            <form name='login' action="../LoginServerlet"  method="post" >
                 <font>Usuario: </font> <input type="text" name="usuario" >
                 <font>Contraseña: </font><input type="password" name="contrasena" >
                 <br>
-                <input type="submit" value="Iniciar Sesión">
+                <input type="submit" value="Iniciar Sesión" name="IniciarSesion">
             </form>       
         </div>
     </body>
