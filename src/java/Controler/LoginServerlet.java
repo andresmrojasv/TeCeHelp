@@ -44,6 +44,7 @@ public class LoginServerlet extends HttpServlet {
             response.sendRedirect("Menu.jsp");
 
         } else {
+            request.getSession().setAttribute("mensaje", new String("Usuario no Registrado"));
             response.sendRedirect("Inicio/Inicio.jsp");
 
         }

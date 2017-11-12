@@ -28,6 +28,7 @@
                 <font>Contraseña: </font><input type="password" name="contrasena" >
                 <br>
                 <input type="submit" value="Iniciar Sesión" name="IniciarSesion">
+                <b>${mensaje}</b>
             </form>       
         </div>
     </body>
