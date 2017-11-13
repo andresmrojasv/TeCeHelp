@@ -12,7 +12,7 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <form action="regProductos.php" method="post" name="form">
+        <form name='producto' action="../ProductoServlet"  method="post">
 
             <table width="455" border="0">
                 <tr><td colspan="10"><div align="center">Gestion de Productos</div></td></tr>
@@ -28,7 +28,7 @@
                     <td width="244">Nombre del Producto</td>
                     <td width="1">&nbsp;</td>
                     <td width="1">&nbsp;</td>
-                    <td width="191"><input name="NombreProducto" type="text" value="" required /></td>
+                    <td width="191"><input name="NombreProducto" type="text" value="" /></td>
 
 
                 </tr>
@@ -36,7 +36,7 @@
                     <td width="244">Cantidad</td>
                     <td width="1">&nbsp;</td>
                     <td width="1">&nbsp;</td>
-                    <td width="191"><input name="Cantidad" type="Int" value="" required /></td>
+                    <td width="191"><input name="Cantidad" type="number" value="0" /></td>
 
 
                 </tr>
@@ -45,7 +45,7 @@
                     <td width="244">Precio Venta</td>
                     <td width="1">&nbsp;</td>
                     <td width="1">&nbsp;</td>
-                    <td width="191"><input name="PrecioVenta" type="int" value="" required /></td>
+                    <td width="191"><input name="PrecioVenta" type="text" value="0" /></td>
 
 
                 </tr>
@@ -53,15 +53,22 @@
                 </tr>
 
                 <tr>
-                    <td width="244"><input type="submit" value="Registrar" name="Registrar" >  <input type="submit" value="Modificar">  <input type="submit" value="Consultar">  </td>
+                    <td width="300">
+                        <input type="submit" value="Registrar" name="BProducto">  
+                        <input type="submit" value="Modificar" name="BProducto">  
+                        <input type="submit" value="Consultar" name="BProducto">
+                        <input type="submit" value="Eliminar" name="BProducto">
+                    </td>
                     <td width="1">&nbsp;</td>
                     <td width="1">&nbsp;</td>
-                    <td width="191"><input type="submit" value="Eliminar"> <input type="submit" value="Salir"> </td>
+                    <td width="191"></td>
 
 
                 </tr>
 
             </table>
+            <!--este "mensaje" hace referencia al que aparecerá en el momento que un vendedor sea registrado -->
+            <p>${mensajeProducto}</p>
         </form>
     </body>
 </html>
