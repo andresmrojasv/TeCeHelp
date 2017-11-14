@@ -20,7 +20,7 @@
         <div id="cabecera">
             <nav id="Inicio">
                 <ul>
-                    <img src="Imagenes/Worldcad.png" width="150" height="37" alt="logo_wc" />
+                    <img src="Imagenes/Worldcad.png" width="100" height="56" alt="logo_wc" />
                     <li><font>Usuarios</font></li>
                     <li><font><a href="Vendedor/Vendedor.jsp" target="presentacion">Vendedores</a></font></li>
                     <li><font><a href="Producto/Producto.jsp" target="presentacion">Productos</a></font></li>

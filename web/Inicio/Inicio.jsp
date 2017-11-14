@@ -16,7 +16,7 @@
         <div id="cabecera">
             <nav id="Inicio">
                 <ul>
-                    <img src="../Imagenes/Worldcad.png" width="190" height="56" alt="logo_wc" />
+                    <img src="../Imagenes/Worldcad.png" width="100" height="56" alt="logo_wc" />
                     <li><font><a href="../LinksInicio/QuienesSomos.jsp" target="presentacion">Quienes Somos</a></font></li>
                     <li><font><a href="../LinksInicio/PrincipiosYValores.jsp" target="presentacion">Principios y Valores</a></font></li>
                     <li><font><a href="../LinksInicio/Documentacion.jsp" target="presentacion">Documentación</a></font></li>
